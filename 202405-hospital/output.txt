@@ -1,0 +1,7 @@
+
+Dear 张三,
+
+Your email address zhangsan@example.com has been registered successfully.
+
+Best regards,
+Your Team
