@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Pathways - Hospital - nan - Nursing Leadership (DOCS, ADONs / ADOCS, Quality, Infection Control)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #000;
+        }
+
+        p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .ss-mid {
+            align-items: center;
+            text-align: center;
+        }
+
+        .ss-right {
+            align-items: flex-end;
+            text-align: right;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #fff;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin: 0;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            font-weight: 900;
+            margin: 0;
+        }
+
+        .margin_top_100 {
+            margin-top: 100px;
+        }
+
+        .margin_top_50 {
+            margin-top: 50px;
+        }
+
+        .margin_bottom_50 {
+            margin-bottom: 50px;
+        }
+
+        .margin_bottom_32 {
+            margin-bottom: 32px;
+        }
+
+        .margin_top_32 {
+            margin-top: 32px;
+        }
+
+        .justify_content {
+            justify-content: center;
+        }
+
+        .text_center {
+            text-align: center;
+        }
+
+        .width_25 {
+            width: 25%;
+        }
+
+        .width_45 {
+            width: 45%;
+        }
+
+        .grey_pattern_background {
+            background-color: #F2F2F2;
+            padding: 1px 0;
+        }
+
+        .grow_header {
+            min-height: 320px;
+            height: auto;
+            background-repeat: no-repeat;
+            background-position-x: 90%;
+            background-position-y: center;
+        }
+
+        .header_img_bluecare {
+            background-image: url("https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/bg_bluecare.png?v=845241");
+            background-size: 320px;
+            background-color: #EDF6FB;
+        }
+
+        .header_img_corporate {
+            background-image: url("https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/corporate_bg.png?v=631064");
+            background-size: 520px;
+            background-color: #E8F1F8;
+        }
+
+        .header_img_disability {
+            background-image: url("https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/bg_disability.png?v=994334");
+            background-size: 400px;
+            background-color: rgba(203, 176, 207, 0.10);
+        }
+
+        .header_img_hospital {
+            background-image: url("https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/bg_hospital.png?v=122150");
+            background-size: 350px;
+            background-color: #EBEBEB;
+        }
+
+        .header_img_lifeline {
+            background-image: url("https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/bg_lifeline.png?v=844102");
+            background-size: 300px;
+            background-color: #FFF2DA;
+        }
+
+        .header_img_family {
+            background-image: url("https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/bg_family.png?v=969478");
+            background-size: 350px;
+            background-color: rgba(203, 176, 207, 0.10);
+        }
+
+        .header_content {
+            padding: 60px 0 30px 130px;
+        }
+
+        .header_content h1 {
+            width: 900px;
+        }
+
+        .road_button {
+            display: block;
+            width: 100px;
+            background-color: #fff;
+            margin-top: 30px;
+            padding: 8px;
+            text-align: center;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .main_content {
+            width: 94%;
+            margin: 60px auto;
+        }
+
+        .card_box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .card_nav {
+            width: 280px;
+            height: auto;
+            margin: 16px;
+            padding: 30px 15px 20px 5px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .extra_width {
+            width: 340px !important;
+        }
+
+        .card_nav_img {
+            height: 80px;
+            width: auto;
+        }
+
+        .card_nav h4 {
+            height: 56px;
+            display: flex;
+            align-items: end;
+            text-align: center;
+        }
+
+        .card_nav a {
+            color: #000;
+        }
+
+        .additional_card {
+            width: 240px;
+            display: block;
+            border: 2px solid #C0C0C0;
+            border-radius: 12px;
+            margin: 14px;
+            background-color: #fff;
+
+        }
+
+        .additional_card img {
+            width: 242px;
+            margin: -1px;
+
+        }
+
+        .additional_card h4 {
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            padding: 5px 0 15px;
+        }
+
+        .additional_card:hover {
+            box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            transition: box-shadow 0.3s;
+            transform: translateY(-5px);
+            transition: transform 0.3s;
+        }
+
+        .link_button {
+            width: 200px;
+            height: 20px;
+            border: #734C74 2px solid;
+            padding: 15px 0px;
+            margin: 0 15px 15px 0;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            line-height: 20px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        .justify_content_start {
+            justify-content: flex-start !important;
+        }
+
+        /* footer*/
+        .footer {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .footer img {
+            margin: 25px;
+            width: 64px;
+            height: auto;
+        }
+
+        .footer_info {
+            line-height: 20px;
+            font-weight: 700;
+            max-width: 800px;
+            margin-bottom: 25px;
+            padding-left: 80px;
+        }
+
+        .footer_info a,
+        .footer_info a:visited {
+            color: #000;
+        }
+
+        .footer_info a:hover {
+            background-color: #F5F5F5;
+        }
+
+
+
+
+        /* blue care */
+        .bluecare_color {
+            color: #002473;
+        }
+
+        .bluecare_color_background,
+        .bluecare_color_border p a:hover,
+        .bluecare_color_background_hover:hover {
+            background-color: #D4F5FF;
+        }
+
+        .bluecare_color_border {
+            border: #002473 2px solid;
+        }
+
+        /* Corporate Office */
+        .corporate_color {
+            color: #619EAC;
+        }
+
+        .corporate_color_background,
+        .corporate_color_background_hover:hover {
+            background-color: #E8F1F8;
+        }
+
+        .corporate_color_border {
+            border: #619EAC 2px solid;
+        }
+
+        /* Disability */
+        .disability_color,
+        .family_color {
+            color: #734C74;
+        }
+
+        .disability_color_background,
+        .disability_color_border p a:hover,
+        .disability_color_background_hover:hover,
+        .family_color_background,
+        .family_color_border p a:hover,
+        .family_color_background_hover:hover {
+            background-color: #FDEDFF;
+        }
+
+        .disability_color_border,
+        .family_color_border {
+            border: #734C74 2px solid;
+        }
+
+        /* hospital */
+        .hospital_color {
+            color: #76848A;
+        }
+
+        .hospital_color_background,
+        .hospital_color_border p a:hover,
+        .hospital_color_background_hover:hover {
+            background-color: #EBEBEB;
+        }
+
+        .hospital_color_border {
+            border: #76848A 2px solid;
+        }
+
+        /* lifeline */
+        .lifeline_color {
+            color: #003575;
+        }
+
+        .lifeline_color_background,
+        .lifeline_color_border p a:hover,
+        .lifeline_color_background_hover:hover {
+            background-color: #E0EBFD;
+        }
+
+        .lifeline_color_border {
+            border: #003575 2px solid;
+        }
+
+        @media screen and (max-width: 1200px) {
+            .background_display_none {
+                background-image: none !important;
+            }
+
+            .header_content h1 {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .grow_header {
+                height: auto;
+            }
+
+            .header_content {
+                padding: 0;
+                padding-top: 40px;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+
+            .header_content h1 {
+                font-size: 40px;
+            }
+
+            .road_button {
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+
+            .display_none {
+                display: none;
+            }
+
+            .footer {
+                flex-wrap: wrap;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="grow_header header_img_hospital background_display_none">
+            <div class="header_content">
+                <h1 class="hospital_color">Hospital Nursing Leadership (DOCS, ADONs / ADOCS, Quality, Infection Control)<br />New Starter Experience</h1>
+                <h3 class="hospital_color">First 90 Day Roadmap</h3>
+                <a class="road_button hospital_color_background_hover hospital_color_border"
+                    href="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/Genie-90-days.jpg?v=616321"
+                    target="_blank">Road Map</a>
+            </div>
+        </div>
+        <div class="grow">
+            <div class="main_content">
+                <h2 class="text_center hospital_color">Hospital Nursing Leadership (DOCS, ADONs / ADOCS, Quality, Infection Control) Learning Requirements </h2>
+                <div class="card_box">
+                    
+                    <div class="card_nav hospital_color_border">
+                        <img class="card_nav_img"
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/icon-orientation.png?v=798311" />
+                        <h4 class="hospital_color">Orientation</h4>
+                        <ul>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034961"
+                                    target="_blank">UCQ Orientation</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034603"
+                                    target="_blank">UCQ Code of Conduct </a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035203"
+                                    target="_blank">Hospital Orientation</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+                    <div class="card_nav hospital_color_border">
+                        <img class="card_nav_img"
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/genie_laptop.png?v=995426" />
+                        <h4 class="hospital_color">Week1 Training</h4>
+                        <ul>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034501"
+                                    target="_blank">General Evacuation Instruction</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035201"
+                                    target="_blank">Basic Life Support Online</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035202"
+                                    target="_blank">Basic Life Support - Practical</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034264"
+                                    target="_blank">NHHI - the Basics of infection prevention and control</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035214"
+                                    target="_blank">NHHI - Hand Hygiene for Clinical Healthcare Workers</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035204"
+                                    target="_blank">Manual Handling Foundation for Clinical Staff</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035205"
+                                    target="_blank">Manual Handling People and Task Practical Assessment</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+                    <div class="card_nav hospital_color_border">
+                        <img class="card_nav_img"
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/icon-mon1.png?v=71764" />
+                        <h4 class="hospital_color">Month1 Training</h4>
+                        <ul>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034641"
+                                    target="_blank">UCQ Privacy Awareness</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034604"
+                                    target="_blank">Treating People Fairly in the Workplace</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034583"
+                                    target="_blank">Child Safe Child Friendly Level 1</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034582"
+                                    target="_blank">Child Safe Child Friendly Level 2</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034581"
+                                    target="_blank">Child Safe Child Friendly Level 3</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034841"
+                                    target="_blank">Voluntary Assisted Dying - General</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034941"
+                                    target="_blank">Uniting Safety with Care</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035021"
+                                    target="_blank">Mentally Healthy UnitingCare</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034541"
+                                    target="_blank">First Response Evacuation Instruction </a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034986"
+                                    target="_blank">Voluntary Assisted Dying - Specialist</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034985"
+                                    target="_blank">Voluntary Assisted Dying - For Leaders</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+                    <div class="card_nav hospital_color_border">
+                        <img class="card_nav_img"
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001681/local000000000000008/images/icon_month2.png?v=477150" />
+                        <h4 class="hospital_color">Month2 Training</h4>
+                        <ul>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034622"
+                                    target="_blank">Speaking up for safety</a></li>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035216"
+                                    target="_blank">Clinical Safety Session </a></li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+                    <div class="card_nav hospital_color_border">
+                        <img class="card_nav_img"
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/icon-mon2.png?v=383945" />
+                        <h4 class="hospital_color">Month3 Training</h4>
+                        <ul>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035041"
+                                    target="_blank">Cultural Appreciation Program</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+                    <div class="card_nav hospital_color_border">
+                        <img class="card_nav_img"
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/icon-mon3.png?v=619516" />
+                        <h4 class="hospital_color">Month12 Training</h4>
+                        <ul>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000035042"
+                                    target="_blank">Cultural Appreciation Refresher</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+                    <div class="card_nav hospital_color_border">
+                        <img class="card_nav_img"
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/super_genie.png?v=731578" />
+                        <h4 class="hospital_color">Task Related</h4>
+                        <ul>
+                            
+                            <li><a class="hospital_color_background_hover"
+                                    href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/common/learningeventdetail/crtfy000000000034502"
+                                    target="_blank">Evacuation Coordination Instruction </a></li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="grey_pattern_background">
+                <div class="main_content">
+                    <h3 class="text_center hospital_color">Additional Learnings</h3>
+                    <div class="card_box">
+                        <a class="additional_card"
+                            href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/app/catalog/search?selectedTab=LEARNINGEVENT&filter=%7B%22CATEGORYFACET%22%3A%7B%22label%22%3A%22Categories%22%2C%22values%22%3A%5B%7B%22facetValueId%22%3A%22categ000000000003661%22%2C%22facetValueLabel%22%3A%22Diversity%20and%20Inclusion%22%7D%5D%7D%7D"
+                            target="_blank">
+                            <img
+                                src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/Diversity_and_Inclusion.png?v=208011">
+                            <h4>Diversity and Inclusion</h4>
+                        </a>
+                        <a class="additional_card"
+                            href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/app/workspace/detail/pgcnt000000000043497"
+                            target="_blank">
+                            <img
+                                src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/Leadership.png?v=541127">
+                            <h4>Leadership</h4>
+                        </a>
+                        <a class="additional_card"
+                            href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/pages/pagelistview/pgcnt000000000041315"
+                            target="_blank">
+                            <img
+                                src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/IT_Software.png?v=408712">
+                            <h4>IT Software</h4>
+                        </a>
+                        <a class="additional_card"
+                            href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/app/workspace/detail/pgcnt000000000043498"
+                            target="_blank">
+                            <img
+                                src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/Grow_Essentials.png?v=849024">
+                            <h4>Grow Essentials</h4>
+                        </a>
+                        <a class="additional_card"
+                        href="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001623/local000000000000008/images/Clinical_Education.png?v=249014"
+                        target="_blank">
+                        <img
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001681/local000000000000008/images/Image_clinical.png?v=323715" />
+                        <h4>Clinical Education</h4>
+                    </a>
+                    <a class="additional_card"
+                        href="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001623/local000000000000008/images/Hospitals.png?v=549453"
+                        target="_blank">
+                        <img
+                            src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001681/local000000000000008/images/Image_hospitals.png?v=705387" />
+                        <h4>Hospitals</h4>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_content">
+                <h3 class="text_center hospital_color">Useful Links</h3>
+                <div class="card_box">
+                    <a class="link_button hospital_color_background_hover hospital_color_border"
+                        href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/pages/pagelistview/pgcnt000000000043609"
+                        target="_blank">
+                        Study Opportunities
+                    </a>
+                    <a class="link_button hospital_color_background_hover hospital_color_border"
+                        href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/pages/pagelistview/pgcnt000000000043607"
+                        target="_blank">
+                        Instructor-Led Learning
+                    </a>
+                    <a class="link_button hospital_color_background_hover hospital_color_border"
+                        href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/app/catalog/browseall/learningcatalog"
+                        target="_blank">
+                        Featured Learning
+                    </a>
+                    <a class="link_button hospital_color_background_hover hospital_color_border"
+                        href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/app/workspace/detail/pgcnt000000000043500"
+                        target="_blank">
+                        Career Pathways
+                    </a>
+                    <a class="link_button hospital_color_background_hover hospital_color_border"
+                        href="https://unitingcare.sabacloud.com/Saba/Web/A501PRD0005/goto/myteamAnalytics/dshbd00000005bb7dae30186c4ec112004147"
+                        target="_blank">
+                        Leader Dashboard
+                    </a>
+                    <a class="link_button hospital_color_background_hover hospital_color_border"
+                        href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/app/catalog/search?selectedTab=LEARNINGEVENT&filter=%7B%22TAGSFACET%22%3A%7B%22label%22%3A%22Tag%22%2C%22values%22%3A%5B%7B%22facetValueId%22%3A%22Micro%20Learning%22%2C%22facetValueLabel%22%3A%22Micro%20Learning%22%7D%5D%7D%7D"
+                        target="_blank">
+                        Micro Learnings
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer hospital_color_background">
+
+            <div class="card_box ss-mid">
+                <a href="mailto:Learning@ucareqld.com.au"><img
+                        src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001681/local000000000000008/images/icon_email_grey.png?v=73166" /></a>
+                <a href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/app/workspace/detail/pgcnt000000000015987"
+                    target="_blank"><img
+                        src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001561/local000000000000008/images/infomation.png?v=785026" /></a>
+                <a href="https://unitingcare.sabacloud.com/Saba/Web_spf/A501PRD0005/app/workspace/detail/pgcnt000000000015987?selectedFirstContainerId=pgcnt000000000025160"
+                    target="_blank"><img
+                        src="https://unitingcare.sabacloud.com/production/A501PRD0005/CertificateTemplates/crttp000000000001741/local000000000000008/images/smallicon-faqs.png?v=650268"></a>
+            </div>
+            <div class="footer_info">
+                If you have any questions about the above resources, or if you are unable to find what you are looking
+                for, email the Learning and Development Team on <a
+                    href="mailto:Learning@ucareqld.com.au">Learning@ucareqld.com.au</a>.
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
